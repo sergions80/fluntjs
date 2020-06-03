@@ -1,0 +1,32 @@
+{
+  "name": "fluntjs",
+  "version": "0.0.1",
+  "description": "Flunt is a fluent way to use Notification Pattern with your entities",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergions80/fluntjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergions80/fluntjs/issues"
+  },
+  "homepage": "https://github.com/sergions80/fluntjs#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.3"
+  }
+}
